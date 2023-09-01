@@ -1,6 +1,10 @@
 import streamlit as st
+import openai
 from elevenlabs import set_api_key
 from elevenlabs import generate, play
+
+# Set your OPENAI API key
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 # Set your Eleven Labs API key
 ELEVEN_KEY = st.secrets["ELEVEN_KEY"]
