@@ -6,7 +6,7 @@ ELEVEN_KEY = st.secrets["ELEVEN_KEY"]
 set_api_key(ELEVEN_KEY)
 
 # Set your Eleven Labs API key
-ELEVEN_KEY = st.secrets[""]
+ELEVEN_KEY = st.secrets["ELEVEN_KEY"]
 set_api_key(ELEVEN_KEY)
 
 # Create a function to stream audio response
