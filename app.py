@@ -1,7 +1,7 @@
 from elevenlabs import set_api_key
 from elevenlabs import generate, play
 
-ELEVEN_KEY = st.secrets["ELEVEN_KEY"]
+ELEVEN_KEY = ["ELEVEN_KEY"]
 set_api_key(ELEVEN_KEY)
 
 def stream_audio_response(input, voice="Bella"):
